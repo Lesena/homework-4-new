@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+body {
+	background: #0c739f url(../img/bg.jpg) 0 0 repeat-x;
+	font: 14px/24px Tahoma, Verdana, sans-serif;
+	color: #424c43;
+	font-weight: 400;
+}
+footer {
+	margin: 0 auto;
+	padding: 4px;
+	width: 1018px;
+	opacity: 0.8;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+header {
+	padding-top: 10px;
+	display: block;
+}
+nav {
+	margin: -7px 0 0 0;
+	padding: 0;
+	height: 34px;
+	display: block;
+	z-index: 2;
+	background: #373737 url(../img/nav-bg.jpg) 0 0 repeat-x;
+}
+main {
+	margin: -1px auto 0;
+	font-size:0;
+	background: url(../img/main-bg.jpg) top center repeat-y;
+}
+h2 {
+	color: #424c43;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding-bottom: 3px;
+	width: 1018px;
+	background: url(../img/wrapper-bg.png) top center repeat-y;
+}
+.page {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #fff;
+}
+.header {
+	padding: 0 28px;
+	display: block;
+	position: relative;
+}
+.logo {
+	width: 283px;
+	height: 165px;
+	background: url(../img/logo.png) 0 0 no-repeat;
+	display: block;
+	float: left;
+}
+.logo a {
+	width: 283px;
+	height: 164px;
+	display: block;
+}
+.contacts {
+	width: 130px;
+	height: 70px;
+	display: block;
+	position: absolute;
+	right: 28px;
+	top: 0;
+	font-size: 12px;
+	opacity: 0.8;
+	color: #128aa7;
+}
+.info {
+	padding-bottom: 6px;
+	display:block;
+	line-height: 16px;
+}
+.flags {
+	font-size: 0;
+	width: 335px;
+	height: 64px;
+	display: block;
+	position: absolute;
+	right: 28px;
+	top: 100px;
+	text-align: right;
+}
+.element {
+	width: 55px;
+	display: inline-block;
+	text-align: center;
+}
+.element a {
+	color: #128aa7;
+}
+.element img {
+	margin: 0 auto;
+	width: 42px;
+	height: 42px;
+	display: block;
+}
+.element span {
+	font-size: 10px;
+	text-decoration: underline;
+	display: block;
+}
+.line {
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+}
+
+ul.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	height: 34px;
+	color: #fff;
+}
+ul.menu:after {
+	display: block;
+	content: "";
+	clear: both;
+	float: none;
+}
+ul.menu > li {
+	float: left;
+	position: relative;
+}
+ul.menu > li > a {
+	padding: 3px 36px;
+	display: block;
+	height: 34px;
+	color: #fff;
+	text-decoration: none;
+}
+ul.menu li .drop {
+	margin-right: 36px;
+	padding-right: 11px;
+	background:url("../img/li.png") no-repeat right 13px;
+}
+ul.submenu {
+	padding-bottom: 10px;
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 25px;
+	width: 150px;
+	height: auto;
+	background-color: #303030;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+
+}
+ul.submenu > li {
+	display: block;
+}
+ul.submenu > li > a {
+	height: 18px;
+	display: block;
+	padding: 10px 10px 0;
+	color: white;
+	text-decoration: none;
+}
+ul.submenu > li > a:hover {
+	text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+	display: block;
+	width: 150px;
+	height: auto;
+	line-height: 12px;
+}
+
+
+.left,
+.center,
+.right {
+	font-size: 14px;
+}
+
+.left {
+	padding: 0 15px 15px 15px;
+	width: 190px;
+	float: left;
+}
+.center {
+	padding: 0 15px 15px 0;
+	width: 550px;
+	float: left;
+}
+.right {
+	padding: 0 5px 15px 20px;
+	width: 190px;
+	float: left;
+}
